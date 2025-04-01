@@ -1,0 +1,72 @@
+/* Apply background styling for the whole app */
+.app-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #E6E6FA 30%, #FAF3F3 100%);
+  display: flex;
+  flex-direction: column;
+  color: #4a148c; /* Dark purple for good contrast */
+}
+
+/* Navbar Styling */
+.navbar {
+  background: #b57edc; /* Rich lavender */
+  color: #fff;
+  padding: 15px;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Navbar Links */
+.navbar a {
+  text-decoration: none;
+  color: #2c003e; /* Dark violet for contrast */
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar a:hover {
+  color: #b52a41; /* Vibrant pink for uniqueness */
+}
+
+/* Improve text visibility */
+.hero-section h1,
+.hero-section p {
+  color: #311b92; /* Darker shade of purple */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* Buttons */
+.button {
+  background: #ff4081; /* Bright pink for contrast */
+  color: white;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease-in-out;
+}
+
+.button:hover {
+  background: #d5006a;
+}
+
+/* Cart icon color */
+.cart-icon {
+  color: #6a5acd; /* Stylish dark lavender */
+}
+
+/* Product Cards */
+.product-card {
+  background: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+}
