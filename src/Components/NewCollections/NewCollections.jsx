@@ -1,5 +1,5 @@
 import React from 'react'
-import './NewCollections.css'
+import './newCollections.css'
 import new_collections from '../Assests/new_collections'
 import Item from "../Item/Item"; //  Correct for default exports.
 
