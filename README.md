@@ -25,12 +25,14 @@
 
 ---
 
-## 🚀 **Getting Started**
+## 🚀 Getting Started
 
-### 📥 **1. Clone the Repository**
+### 📥 1. Clone the Repository
 
+```bash
 git clone https://github.com/SomiyaRana/SHOPPER.git
 cd SHOPPER
+
 
 📦 2. Install Dependencies
 Run the following command in your terminal:
