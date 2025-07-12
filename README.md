@@ -33,29 +33,36 @@
 git clone https://github.com/SomiyaRana/SHOPPER.git
 cd SHOPPER
 
+```
 
-📦 2. Install Dependencies
+### 📦 2. Install Dependencies
 Run the following command in your terminal:
-npm install
 
-🧪 3. Start the Development Server
+```bash
+npm install
+```
+
+### 🧪 3. Start the Development Server
 To start the app locally, run:
 
+```bash
 npm start
-
+```
 Then open your browser and go to:
 http://localhost:3000
 
-🌐 4. Deployment
+
+### 🌐 4. Deployment
 The project is deployed using GitHub Pages with the gh-pages branch.
 
 To redeploy the project, run:
-
+```bash
 npm run deploy
+```
 
 Make sure the homepage field is correctly set in your package.json file
 
-🔮5.  Future Enhancements
+### 🔮5.  Future Enhancements
 Backend Integration using Node.js or Firebase
 
 User Authentication (Login/Signup)
